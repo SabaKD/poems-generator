@@ -2,9 +2,9 @@
 function generatePoem(event){
     event.preventDefault();
     new Typewriter('#poem', {
-  strings: "Hello World",
+  strings: "Hello World  kwjfkjehfkejf",
   autoStart: true,
-  delay: 10
+  delay: 30
 });
 }
 

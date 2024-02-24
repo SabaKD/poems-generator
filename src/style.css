@@ -54,10 +54,30 @@ form{
     background-color: white;
     padding: 20px;
     /* line-height: 24px; */
+    color: black;
+    font-style: italic;
     border-left: 3px solid rgb(57, 90, 255);
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
 
+}
+.hidden {
+    display: none;
+}
+
+.generating {
+    animation: blinkMe 1s steps(5, start) infinite;
+}
+
+@keyframes blinkMe {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blinkMe {
+    to {
+            visibility: hidden;
+        }
 }
 footer{
     text-align: center;
